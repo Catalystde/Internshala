@@ -1,0 +1,225 @@
+Model Comparison for issue_type prediction:
+
+Logistic Regression - issue_type
+Accuracy: 0.9600
+F1 Score: 0.9529
+
+                    precision    recall  f1-score   support
+
+    Account Access       1.00      1.00      1.00        30
+   Billing Problem       1.00      1.00      1.00        31
+   General Inquiry       1.00      1.00      1.00        31
+Installation Issue       1.00      1.00      1.00        31
+     Late Delivery       0.86      0.96      0.91        25
+    Product Defect       0.96      0.85      0.90        26
+           Unknown       0.00      0.00      0.00         3
+        Wrong Item       0.88      1.00      0.94        23
+
+          accuracy                           0.96       200
+         macro avg       0.84      0.85      0.84       200
+      weighted avg       0.95      0.96      0.95       200
+
+
+
+Random Forest - issue_type
+Accuracy: 1.0000
+F1 Score: 1.0000
+
+                    precision    recall  f1-score   support
+
+    Account Access       1.00      1.00      1.00        30
+   Billing Problem       1.00      1.00      1.00        31
+   General Inquiry       1.00      1.00      1.00        31
+Installation Issue       1.00      1.00      1.00        31
+     Late Delivery       1.00      1.00      1.00        25
+    Product Defect       1.00      1.00      1.00        26
+           Unknown       1.00      1.00      1.00         3
+        Wrong Item       1.00      1.00      1.00        23
+
+          accuracy                           1.00       200
+         macro avg       1.00      1.00      1.00       200
+      weighted avg       1.00      1.00      1.00       200
+
+
+
+SVM - issue_type
+Accuracy: 0.9850
+F1 Score: 0.9780
+
+                    precision    recall  f1-score   support
+
+    Account Access       1.00      1.00      1.00        30
+   Billing Problem       1.00      1.00      1.00        31
+   General Inquiry       1.00      1.00      1.00        31
+Installation Issue       1.00      1.00      1.00        31
+     Late Delivery       1.00      1.00      1.00        25
+    Product Defect       1.00      1.00      1.00        26
+           Unknown       0.00      0.00      0.00         3
+        Wrong Item       0.88      1.00      0.94        23
+
+          accuracy                           0.98       200
+         macro avg       0.86      0.88      0.87       200
+      weighted avg       0.97      0.98      0.98       200
+
+
+
+KNN - issue_type
+Accuracy: 0.9800
+F1 Score: 0.9777
+
+                    precision    recall  f1-score   support
+
+    Account Access       1.00      1.00      1.00        30
+   Billing Problem       1.00      1.00      1.00        31
+   General Inquiry       1.00      1.00      1.00        31
+Installation Issue       0.97      1.00      0.98        31
+     Late Delivery       0.96      0.96      0.96        25
+    Product Defect       1.00      0.96      0.98        26
+           Unknown       1.00      0.33      0.50         3
+        Wrong Item       0.92      1.00      0.96        23
+
+          accuracy                           0.98       200
+         macro avg       0.98      0.91      0.92       200
+      weighted avg       0.98      0.98      0.98       200
+
+
+
+Gradient Boosting - issue_type
+Accuracy: 1.0000
+F1 Score: 1.0000
+
+                    precision    recall  f1-score   support
+
+    Account Access       1.00      1.00      1.00        30
+   Billing Problem       1.00      1.00      1.00        31
+   General Inquiry       1.00      1.00      1.00        31
+Installation Issue       1.00      1.00      1.00        31
+     Late Delivery       1.00      1.00      1.00        25
+    Product Defect       1.00      1.00      1.00        26
+           Unknown       1.00      1.00      1.00         3
+        Wrong Item       1.00      1.00      1.00        23
+
+          accuracy                           1.00       200
+         macro avg       1.00      1.00      1.00       200
+      weighted avg       1.00      1.00      1.00       200
+
+
+
+Naive Bayes - issue_type
+Accuracy: 0.5850
+F1 Score: 0.5748
+
+                    precision    recall  f1-score   support
+
+    Account Access       1.00      1.00      1.00        30
+   Billing Problem       0.81      0.55      0.65        31
+   General Inquiry       0.36      0.42      0.39        31
+Installation Issue       0.31      0.45      0.37        31
+     Late Delivery       0.50      0.16      0.24        25
+    Product Defect       0.72      0.81      0.76        26
+           Unknown       0.00      0.00      0.00         3
+        Wrong Item       0.58      0.78      0.67        23
+
+          accuracy                           0.58       200
+         macro avg       0.54      0.52      0.51       200
+      weighted avg       0.60      0.58      0.57       200
+
+
+
+Model Comparison for urgency_level prediction:
+
+Logistic Regression - urgency_level
+Accuracy: 0.3600
+F1 Score: 0.3154
+
+              precision    recall  f1-score   support
+
+        High       0.35      0.39      0.37        69
+         Low       0.50      0.06      0.11        63
+      Medium       0.36      0.60      0.45        68
+
+    accuracy                           0.36       200
+   macro avg       0.40      0.35      0.31       200
+weighted avg       0.40      0.36      0.32       200
+
+
+
+Random Forest - urgency_level
+Accuracy: 0.4150
+F1 Score: 0.4118
+
+              precision    recall  f1-score   support
+
+        High       0.42      0.33      0.37        69
+         Low       0.38      0.40      0.39        63
+      Medium       0.44      0.51      0.47        68
+
+    accuracy                           0.41       200
+   macro avg       0.41      0.41      0.41       200
+weighted avg       0.41      0.41      0.41       200
+
+
+
+SVM - urgency_level
+Accuracy: 0.3900
+F1 Score: 0.3112
+
+              precision    recall  f1-score   support
+
+        High       0.42      0.41      0.41        69
+         Low       0.00      0.00      0.00        63
+      Medium       0.38      0.74      0.50        68
+
+    accuracy                           0.39       200
+   macro avg       0.26      0.38      0.30       200
+weighted avg       0.27      0.39      0.31       200
+
+
+
+KNN - urgency_level
+Accuracy: 0.4400
+F1 Score: 0.4336
+
+              precision    recall  f1-score   support
+
+        High       0.44      0.58      0.50        69
+         Low       0.42      0.41      0.42        63
+      Medium       0.46      0.32      0.38        68
+
+    accuracy                           0.44       200
+   macro avg       0.44      0.44      0.43       200
+weighted avg       0.44      0.44      0.43       200
+
+
+
+Gradient Boosting - urgency_level
+Accuracy: 0.3950
+F1 Score: 0.3892
+
+              precision    recall  f1-score   support
+
+        High       0.40      0.35      0.37        69
+         Low       0.40      0.30      0.34        63
+      Medium       0.39      0.53      0.45        68
+
+    accuracy                           0.40       200
+   macro avg       0.40      0.39      0.39       200
+weighted avg       0.40      0.40      0.39       200
+
+
+
+Naive Bayes - urgency_level
+Accuracy: 0.3550
+F1 Score: 0.2890
+
+              precision    recall  f1-score   support
+
+        High       0.38      0.51      0.43        69
+         Low       0.00      0.00      0.00        63
+      Medium       0.34      0.53      0.41        68
+
+    accuracy                           0.35       200
+   macro avg       0.24      0.35      0.28       200
+weighted avg       0.24      0.35      0.29       200
+
+

@@ -1,0 +1,6 @@
+{
+  "num_quotes": 2507,
+  "embedding_dimension": 384,
+  "model_path": "./improved_quote_retriever",
+  "created_at": "2025-07-03T13:51:57.111810"
+}

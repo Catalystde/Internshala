@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+nltk
+openpyxl
+sentence-transformers
+datasets
+torch
+faiss-cpu==1.11.0
+streamlit
+ragas
+mistralai
+python-dotenv   
+langchain-mistralai
